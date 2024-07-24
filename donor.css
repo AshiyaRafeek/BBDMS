@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding:0;
+}
+#navbar{
+    height: 50px;
+    background-color: #8A0302;
+    display:flex;
+    align-items: center;
+}
+#logo{
+    color:#FCFCFC;
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+    font-size: 22px;
+    word-spacing: 2px;
+}
+a{
+    color: #FCFCFC;
+    text-decoration: none;
+    margin-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-weight: bold;  
+}
+a:hover{
+    background-color:#070603;
+    border-radius: 5px;
+}
+a:active{
+    background-color:#B79455;
+    border-radius: 30px;
+}
+#home{
+    margin-left: 430px;
+}
+footer{
+    background-color: #070603;
+    color: #FCFCFC;
+    text-align: center;
+}
+h1{
+    text-align: center; 
+    padding-top: 40px;
+    color:#070603;
+    font-size: 40px;
+    text-decoration:underline;
+    text-decoration-color:#8A0302;
+}    
+#form{
+    padding-top: 30px;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 25px;
+    margin-left: 410px;
+    margin-right: 500px;
+    font-size: 20px;
+    width: 500px;
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 4px );
+}
+label{
+    color:#070603;
+}
+.tags{
+    height: 30px;
+    width:400px;
+}
+#submit{
+    background-color:#8A0302;
+    color:#FCFCFC;
+    border: none;
+    height: 30px;
+    width:70px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+main{
+    background-image: url("https://images.unsplash.com/photo-1538108149393-fbbd81895907?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    height: 1100px;
+}  
+footer{
+    background-color: #070603;
+    color: #FCFCFC;
+    text-align: center;
+    height: 70px;
+}
+pre{
+    position: relative;
+    top:10px;
+}
+.submitmsg{
+    font-size: 15px;
+    text-align: center;
+    color: #8A0302;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
